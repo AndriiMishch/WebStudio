@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desctop.css" />
   </head>
   <body>
     <header class="header">
@@ -27,6 +30,11 @@
               <a href="./index.html" class="header-link link header-nav active"
                 >Studio</a
               >
+              <div class="menu-hamburger">
+                <svg class="menu-hamburger-btn">
+                  <use href="./images/symbol-defs.svg#icon-menu-hamburger"></use>
+                </svg>
+              </div>
             </li>
             <li>
               <a
@@ -40,6 +48,7 @@
                 >Contacts</a
               >
             </li>
+
           </ul>
         </nav>
         <div class="additional-nav">
@@ -59,7 +68,9 @@
                   >+11 (000) 111-11-11</a
                 >
               </li>
+
             </ul>
+
           </address>
         </div>
       </div>
@@ -77,8 +88,8 @@
       <section class="advantages">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
-          <ul class="list">
-            <li>
+          <ul class="advantages-list list">
+            <li class="advantages-descr">
               <div class="advantages-icon-box">
                 <svg class="advantages-icon">
                   <use href="./images/symbol-defs.svg#icon-antenna"></use>
@@ -91,7 +102,7 @@
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="advantages-descr">
               <div class="advantages-icon-box">
                 <svg class="advantages-icon">
                   <use href="./images/symbol-defs.svg#icon-clock"></use>
@@ -103,7 +114,7 @@
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="advantages-descr">
               <div class="advantages-icon-box">
                 <svg class="advantages-icon">
                   <use href="./images/symbol-defs.svg#icon-diagram"></use>
@@ -115,7 +126,7 @@
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="advantages-descr">
               <div class="advantages-icon-box">
                 <svg class="advantages-icon">
                   <use href="./images/symbol-defs.svg#icon-astronaut"></use>
@@ -153,15 +164,15 @@
       </section>
 
       <section class="our-team">
-        <div class="container">
-          <h2 class="team-hero">Our Team</h2>
+        <div class="container container-sm">
+          <h2 class="team-title">Our Team</h2>
           <ul class="list team-member-list">
-            <li class="team-member">
+            <li class="team-item">
               <img
                 src="./images/team-member-one.jpg"
-                alt="A man with a beard and in
-            shirt"
+                alt="A man with a beard and in shirt"
                 width="264"
+                height="260"
               />
               <div class="team-member-descr-list">
                 <h3 class="team-member-name">Mark Guerrero</h3>
@@ -204,12 +215,12 @@
                 </ul>
               </div>
             </li>
-            <li class="team-member">
+            <li class="team-item">
               <img
                 src="./images/team-member-two.jpg"
-                alt="A man without a beard and in
-            shirt"
+                alt="A man without a beard and in shirt"
                 width="264"
+                height="260"
               />
               <div class="team-member-descr-list">
                 <h3 class="team-member-name">Tom Ford</h3>
@@ -252,11 +263,12 @@
                 </ul>
               </div>
             </li>
-            <li class="team-member">
+            <li class="team-item">
               <img
                 src="./images/team-member-three.jpg"
                 alt="Woman in a sweater"
                 width="264"
+                height="260"
               />
               <div class="team-member-descr-list">
                 <h3 class="team-member-name">Camila Garcia</h3>
@@ -299,12 +311,12 @@
                 </ul>
               </div>
             </li>
-            <li class="team-member">
+            <li class="team-item">
               <img
                 src="./images/team-member-four.jpg"
-                alt="A man with a beard and in
-            t-shirt"
+                alt="A man with a beard and in t-shirt"
                 width="264"
+                height="260"
               />
               <div class="team-member-descr-list">
                 <h3 class="team-member-name">Daniel Wilson</h3>
@@ -351,8 +363,8 @@
         </div>
       </section>
 
-      <section>
-        <div class="costumer">
+      <section class="costumer">
+        <div class="container">
           <h2 class="customers-title">Customers</h2>
           <ul class="list customer-list">
             <li class="customer-list-item">
@@ -466,7 +478,7 @@
         </ul>
       </div>
     </footer>
-    <div data-modal class="backdrop container is-hidden">
+    <div data-modal class="backdrop is-hidden">
       <div class="modal container">
         <button data-modal-close type="button" class="transition modal-close">
           <svg class="modal-close-icon">
