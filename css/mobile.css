@@ -1,0 +1,233 @@
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 426px;
+        /* display: flex;
+        flex-wrap: wrap;
+        text-align: center; */
+      }
+      .additional-nav ul > li:not(:last-child) {
+        padding-bottom: 4px;;
+      }
+      .header-link.active {
+        color: var(--Pressed-state-color);
+      }
+      .logo-first {
+        margin-right: 120px;
+      }
+      .additional-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 118px;
+      }
+      .our-team {
+        padding-top: 96px;
+        padding-bottom: 128px;
+        justify-content: center;
+    }
+    
+
+    .team-member-list {
+        flex-wrap: wrap;
+        row-gap: 72px;
+        justify-content: center;
+        text-align: center;
+      }
+      .customer-list {
+        max-width: 396px;
+        row-gap: 72px;
+
+      }
+      .customers-title {
+        padding-top: 96px;
+          }
+    .team-item {
+        text-align: center;
+        width: 264px;
+    }
+      .hero-main {
+        padding-bottom: 112px;
+        padding-top: 112px;
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url(../images/mobile-background.jpg);
+    }
+
+    .hero-hover {
+        margin-bottom: 72px;
+        font-size: 36px;
+        line-height: 40px;
+        /* margin-bottom: 48px; */
+        width: 320px;
+      }
+
+      .advantages-icon-box {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
+
+      .advantages-descr {
+        width: 396px;
+        height: 120px;
+        flex-wrap: wrap;
+        margin: 0;
+      }
+
+      .advantages {
+        margin-top: 96px;
+        margin-bottom: 96px;
+      }
+
+      .advantages ul {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 72px;
+
+      }
+      
+      .advantages-hover {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+        text-transform: capitalize;
+        color: var(--Dark-color);
+        text-align: center;
+      }
+
+    }
+@media screen and (max-width: 1199px) {
+    .our-jobs {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
+
+}
+@media screen and (max-width: 785px) {
+
+    .header-nav {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+    .additional-nav {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+    .menu-hamburger {
+        width: 8px;
+        height: 8px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        fill: currentColor;
+    }
+
+    .footer-list {
+        display: flex;
+        flex-wrap: wrap;
+
+
+      }
+      .footer {
+        padding-top: 96px;
+        padding-bottom: 96px;
+
+    }
+    .logo-foot{
+justify-content: center;
+    }
+    .footer-list {
+        flex-wrap: wrap;
+        row-gap: 72px;
+        justify-content: center;
+        text-align: center;
+      }
+      
+      .footer-list-item:first-child {
+        margin-right: 0px;
+      }
+      .footer-form-input {
+        width: 100%;
+      }
+      
+      .footer-list-item {
+        margin-right: 0px;
+        text-align: center;
+      }
+      
+      .footer-list-item:last-child {
+        margin-right: 0px;
+      }
+
+      .footer-form-group {
+        justify-content: center;
+        display: block;
+        flex-direction: row;
+        padding-bottom: 16px;
+      }
+      .footer-form-btn{
+        margin: 0;
+        margin-top: 16px;
+      }
+    
+}
+@media screen and (max-width: 480px) {
+
+
+
+    
+    .our-team {
+        padding-top: 96px;
+        padding-bottom: 128px;
+        justify-content: center;
+    }
+
+    .team-member-list {
+        flex-wrap: wrap;
+        row-gap: 72px;
+        justify-content: center;
+        text-align: center;
+      }
+
+    .team-item {
+        width: 264px;
+    }
+
+   
+    }
