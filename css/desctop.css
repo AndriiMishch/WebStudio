@@ -1,0 +1,149 @@
+@media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1158px;
+    }
+    .header-contacts {
+        font-size: 16px;
+        line-height: calc(24 / 16);
+        letter-spacing: 0.02em;
+        color: var(--Text-color);
+        font-style: normal;
+      }
+      .menu-hamburger-btn {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
+    .hero-main {
+        background-size: 1440px;
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url(../images/hero-background.jpg);
+    }
+    .advantages-icon-box {
+        position: relative;
+        width: 264px;
+        height: 112px;
+        margin: auto;
+        border: auto;
+        padding: auto;
+        white-space: wrap;
+        clip-path: inset(0%);
+        clip: auto;
+        overflow: auto;
+      }
+      .advantages ul > li:not(:last-child) {
+        margin-right: var(--second-margin);
+      } 
+      
+.advantages ul > li {
+  width: 264px;
+}
+
+
+.advantages ul {
+  display: flex;
+}
+.advantages {
+    margin-bottom: 120px;
+}
+
+.advantages-hover {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.advantages-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--Text-color);
+}
+.advantages ul > li:nth-child(2n)  {
+    margin-left: 0;
+  }
+
+  .customers-title {
+padding-top: 120px;
+  }
+  .customer-list {
+    max-width: 1440px;
+    margin-left: 0;
+  }
+    .hero-hover {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: calc(60 / 56);
+        letter-spacing: 0.02em;
+        color: var(--Hero-text-color);
+        margin-bottom: 48px;
+        width: 496px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+        
+    .our-team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .team-item {
+        width: calc((100% - 72px) / 4); 
+        /* width: 264px; */
+    }
+    .our-jobs {
+        position: relative;
+        width: auto;
+        height: auto;
+        margin: auto;
+        border: auto;
+        padding: auto;
+        white-space: wrap;
+        clip-path: inset(0%);
+        clip: auto;
+        overflow: auto;
+      }
+
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .footer-list {
+        flex-wrap: wrap;
+        row-gap: 72px;
+        width: 1158px;
+      }
+      
+      .footer-list-item:first-child {
+        margin-right: 120px;
+      }
+      
+      .footer-list-item {
+        margin-right: 80px;
+      }
+      
+      .footer-list-item:last-child {
+        margin-right: 0px;
+      }
+
+
+    .footer-form-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+  }
