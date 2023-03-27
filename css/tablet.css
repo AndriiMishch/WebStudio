@@ -1,5 +1,22 @@
 @media screen and (min-width: 768px) {
-    .container {
+    /* MAIN */
+
+  /* HEADER */
+
+  /* HERO */
+
+  /* advantages */
+
+  /* our-jobs */
+
+  /* our-team */
+
+  /* costumer */
+
+  /* FOOTER */
+
+  /* MODAL */
+    /* .container {
       max-width: 766px;
     }
     .header-social-list {
@@ -10,7 +27,7 @@
     }
     .header-link-main {
       display: block;
-    }
+    } */
     /* .header-nav {
       display: block;
   } */
@@ -21,7 +38,7 @@
   /* .header-modal-close {
     display: none;
   } */
-  .nav-header {
+  /* .nav-header {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -86,7 +103,7 @@
         width: 356px;
         height: 120px;
         flex-wrap: wrap;
-      }
+      } */
 
       /* .advantages ul > li {
         width: 356px;
@@ -99,7 +116,7 @@
       /* .advantages ul > li:first-child {
         margin-right: var(--second-margin);
       } */
-      .advantages ul > li:nth-child(2n)  {
+      /* .advantages ul > li:nth-child(2n)  {
         margin-left: var(--second-margin);
       }
       .advantages {
@@ -134,18 +151,15 @@
         color: var(--Text-color);
       }
     .hero-hover {
-        margin-bottom: 40px;
+        margin-bottom: 40px; */
         /* font-size: 56px;
         line-height: calc(60 / 56); */
         /* margin-bottom: 48px; */
 
       }
 
-     
-      /* Body Medium */
-
         
-    .our-team {
+    /* .our-team {
         padding-top: 96px;
         padding-bottom: 104px;
     }
@@ -156,18 +170,6 @@
 
     .team-member-list {
         row-gap: 64px;
-      }
-      .our-jobs {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
       }
       .customer-list {
         max-width: 552px;
@@ -183,13 +185,6 @@
           }
 
     }
-    @media screen and (min-width: 768px), (max-width: 1199px) {
-
-    }
-@media screen and (max-width: 1199px) {
-
-}
-
 
 
 
@@ -233,4 +228,4 @@
       
   }
 
-  
+   */
