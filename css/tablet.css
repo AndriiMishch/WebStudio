@@ -2,6 +2,42 @@
     .container {
       max-width: 766px;
     }
+    .header-social-list {
+      display: none;
+    }
+    .header-nav-contacts-main {
+      display: block;
+    }
+    .header-link-main {
+      display: block;
+    }
+    /* .header-nav {
+      display: block;
+  } */
+
+  /* .additional-nav {
+      display: block;
+  } */
+  /* .header-modal-close {
+    display: none;
+  } */
+  .nav-header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .additional-nav ul {
+    display: flex;
+    margin-left: 332px;
+  }
+  
+  .additional-nav ul > li:not(:last-child) {
+    margin-right: 40px;
+  }
+  .additional-nav {
+    padding-top: 24px;
+  }
+
     .header-contacts {
         font-size: 12px;
         line-height: 16px;
@@ -21,17 +57,8 @@
         flex-wrap: wrap;
         margin-left: 118px;
       }
-      .menu-hamburger-btn {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
+      .header-modal-open {
+        display: none;
       }
     .hero-main {
         padding-bottom: 108px;
