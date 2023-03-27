@@ -75,24 +75,82 @@ body {
 }
 /* header */
 
+.header-modal-close-icon {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: currentColor;
+}
+
+
+
+.header-modal-close {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  background: var(--Accent-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  align-items: center;
+  height: 24px;
+  width: 24px;
+}
+
+.header-modal-close:hover,
+.header-modal-close:focus {
+  cursor: pointer;
+  background: var(--Pressed-state-color);
+  border-color: var(--Pressed-state-color);
+  border-radius: 50%;
+}
+
+.header-modal-close:is(:hover, :focus) {
+  color: var(--Hero-text-color);
+}
+
+
 .header {
   border-bottom: 1px solid var(--Accent-color);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.nav-header {
-  display: flex;
-  text-align: center;
-  justify-content: center;
 
-}
 .logo-first {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.header-link {
 
+.modal-burger-icon {
+  width: 32px;
+  height: 22px;
+  position: absolute;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-modal-open {
+  position: absolute;
+padding-right: 16px;
+  top: 24px;
+  background: var(--Hero-text-color);
+  border: none;
+  align-items: center;
+
+}
+.header-modal-open:hover,
+.header-modal-open:focus {
+  cursor: pointer;
+  background: var(--Hero-text-color);
+  border: none;
+}
+.header-link {
   display: block;
 }
 
@@ -121,6 +179,7 @@ body {
 
 .nav-container {
   display: flex;
+  position: relative;
 }
 
 .logo-header {
@@ -153,17 +212,7 @@ body {
   color: var(--Pressed-state-color);
 }
 
-.additional-nav ul {
-  display: flex;
-  margin-left: 332px;
-}
 
-.additional-nav ul > li:not(:last-child) {
-  margin-right: 40px;
-}
-.additional-nav {
-  padding-top: 24px;
-}
 
 .header-contacts {
   font-size: 16px;
@@ -790,6 +839,8 @@ color: rgba(255, 255, 255, 0.6);
   transform: translate(-50%, -50%);
   fill: currentColor;
 }
+
+
 
 .modal-close {
   position: absolute;
