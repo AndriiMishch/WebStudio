@@ -1,14 +1,59 @@
 @media screen and (min-width: 1200px) {
-    .container {
-      max-width: 1158px;
-    }
-    .header-contacts {
-        font-size: 16px;
-        line-height: calc(24 / 16);
-        letter-spacing: 0.02em;
-        color: var(--Text-color);
-        font-style: normal;
-      }
+/* MAIN */
+.container {
+max-width: 1158px;
+}
+
+  /* HEADER */
+
+  /* HERO */
+
+  /* advantages */
+
+  /* our-jobs */
+/* What are we doing */
+/* .our-jobs {
+  margin-top: var(--basic-margin);
+  margin-bottom: var(--basic-margin);
+}
+
+.our-jobs ul {
+  display: flex;
+}
+
+.what-we-do {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  width: 325px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 72px;
+  padding-top: 120px;
+}
+
+.our-jobs ul > li:not(:last-child) {
+  margin-right: var(--second-margin);
+} */
+
+  /* our-team */
+
+  /* costumer */
+
+  /* FOOTER */
+
+  /* MODAL */
+
+/* .header-contacts {
+font-size: 16px;
+line-height: calc(24 / 16);
+letter-spacing: 0.02em;
+color: var(--Text-color);
+font-style: normal;
+}
       .menu-hamburger-btn {
         position: absolute;
         width: 1px;
@@ -20,11 +65,11 @@
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
-      }
+      } */
       /* .site-nav {
         display: block;
       } */
-      .header-modal-close{
+      /* .header-modal-close{
         display: none;
       }
 .site-nav {
@@ -119,22 +164,10 @@ padding-top: 120px;
     }
 
     .team-item {
-        width: calc((100% - 72px) / 4); 
+        width: calc((100% - 72px) / 4);  */
         /* width: 264px; */
     }
-    .our-jobs {
-        position: relative;
-        width: auto;
-        height: auto;
-        margin: auto;
-        border: auto;
-        padding: auto;
-        white-space: wrap;
-        clip-path: inset(0%);
-        clip: auto;
-        overflow: auto;
-      }
-
+/* 
     .footer {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -171,4 +204,4 @@ padding-top: 120px;
         align-items: center;
       }
       
-  }
+  } */
