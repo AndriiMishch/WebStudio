@@ -21,57 +21,132 @@
   <body>
     <header class="header">
       <div class="container nav-container">
-        <nav class="nav-header">
           <a href="./index.html" class="header-link logo-first link"
             >Web<span class="logo-header">Studio</span>
           </a>
-          <ul class="list site-nav">
-            <li>
-              <a href="./index.html" class="header-link link header-nav active"
-                >Studio</a
-              >
-              <div class="menu-hamburger">
-                <svg class="menu-hamburger-btn">
-                  <use href="./images/symbol-defs.svg#icon-menu-hamburger"></use>
-                </svg>
-              </div>
-            </li>
-            <li>
-              <a
-                href="./portfolio.html"
-                class="transition header-link link header-nav"
-                >Portfolio</a
-              >
-            </li>
-            <li>
-              <a href="" class="transition header-link link header-nav"
-                >Contacts</a
-              >
-            </li>
-
-          </ul>
-        </nav>
-        <div class="additional-nav">
-          <address>
-            <ul class="list">
-              <li>
-                <a
-                  href="mailto:info@devstudio.com"
-                  class="transition header-link link header-contacts"
-                  >info@devstudio.com</a
-                >
+          <button header-data-modal-open type="button" class="transition header-burger header-modal-open">
+            <svg class="modal-burger-icon">
+              <use href="./images/symbol-defs.svg#icon-vector-converted"></use>
+            </svg>
+          </button>
+          <nav class="nav-header">
+            <ul class="list site-nav">
+              <li>   
+                <a href="./index.html" class="header-link-main link header-nav active"
+                  >Studio</a>
               </li>
               <li>
                 <a
-                  href="tel:+110001111111"
-                  class="transition header-link link header-contacts"
-                  >+11 (000) 111-11-11</a
-                >
+                  href="./portfolio.html" class="transition header-link-main link header-nav"
+                  >Portfolio
+                </a>
               </li>
-
+              <li>
+                <a href="" class="transition header-link-main link header-nav"
+                  >Contacts
+                </a>
+              </li>
             </ul>
+            <div class="additional-nav">
+              <address class="header-nav-contacts-main">
+                <ul class="list">
+                  <li>
+                    <a
+                      href="mailto:info@devstudio.com"
+                      class="transition header-link link header-contacts"
+                      >info@devstudio.com</a>
+                  </li>
+                  <li>
+                    <a
+                      href="tel:+110001111111"
+                      class="transition header-link link header-contacts"
+                      >+11 (000) 111-11-11</a>
+                  </li>
+                </ul>
+              </address>
+            </div>
 
-          </address>
+        </nav>
+          <div header-data-modal class="header-nav-wrap is-hidden">
+            <nav class="nav-header">
+              <button header-data-modal-close type="button" class="transition header-modal-close">
+                <svg class="modal-close-icon">
+                  <use href="./images/symbol-defs.svg#icon-close-x"></use>
+                </svg>
+              </button>
+              <ul class="list site-nav">
+                <li>   
+                  <a href="./index.html" class="header-link link header-nav active"
+                    >Studio</a>
+                </li>
+                <li>
+                  <a
+                    href="./portfolio.html" class="transition header-link link header-nav"
+                    >Portfolio
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="transition header-link link header-nav"
+                    >Contacts
+                  </a>
+                </li>
+              </ul>
+              <div class="additional-nav">
+                <address class="header-nav-contacts">
+                  <ul class="list">
+                    <li>
+                      <a
+                        href="mailto:info@devstudio.com"
+                        class="transition header-link link header-contacts"
+                        >info@devstudio.com</a>
+                    </li>
+                    <li>
+                      <a
+                        href="tel:+110001111111"
+                        class="transition header-link link header-contacts"
+                        >+11 (000) 111-11-11</a>
+                    </li>
+                  </ul>
+                </address>
+              </div>
+                <ul class="header-social-list list">
+                  <li class="header-social-media">
+                    <a href="" class="transition header-link-social link">
+                      <svg class="header-social-icon">
+                        <use
+                          href="./images/symbol-defs.svg#icon-instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="header-social-media">
+                    <a href="" class="transition header-link-social link">
+                      <svg class="header-social-icon">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="header-social-media">
+                    <a href="" class="transition header-link-social link">
+                      <svg class="header-social-icon">
+                        <use
+                          href="./images/symbol-defs.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="header-social-media">
+                    <a href="" class="transition header-link-social link">
+                      <svg class="header-social-icon">
+                        <use
+                          href="./images/symbol-defs.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+
+          </nav>
         </div>
       </div>
     </header>
@@ -546,6 +621,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
