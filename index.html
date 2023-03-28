@@ -67,94 +67,96 @@
             </div>
           </nav>
           <div header-data-modal class="header-nav-wrap is-hidden">
+            <button header-data-modal-close type="button" class="transition header-modal-close">
+              <svg class="modal-close-icon">
+                <use href="./images/symbol-defs.svg#icon-close-x"></use>
+              </svg>
+            </button>
+            <div class="wrap-header">
             <nav class="nav-header">
-              <button header-data-modal-close type="button" class="transition header-modal-close">
-                <svg class="modal-close-icon">
-                  <use href="./images/symbol-defs.svg#icon-close-x"></use>
-                </svg>
-              </button>
               <ul class="list site-nav">
                 <li>   
-                  <a href="./index.html" class="header-link link header-nav"
+                  <a href="./index.html" class="header-link link header-nav "
                     >Studio</a>
                 </li>
                 <li>
                   <a
-                    href="./portfolio.html" class="transition header-link link header-nav"
+                    href="./portfolio.html" class="transition header-link link header-nav "
                     >Portfolio
                   </a>
                 </li>
                 <li>
-                  <a href="" class="transition header-link link header-nav active"
+                  <a href="" class="transition header-link link header-nav active "
                     >Contacts
                   </a>
                 </li>
               </ul>
+            </nav>
             <div class="header-form-group">
-              <div class="additional-nav">
-                <address class="header-nav-contacts">
-                  <ul class="list">
-                    <li>
-                      <a
-                        href="tel:+110001111111"
-                        class="transition header-link link header-contacts phone-contact"
-                        >+11 (000) 111-11-11</a>
+                <div class="additional-nav">
+                  <address class="header-nav-contacts">
+                    <ul class="list warp-contact-link">
+                      <li>
+                        <a
+                          href="tel:+110001111111"
+                          class="transition header-link link header-contacts phone-contact"
+                          >+11 (000) 111-11-11</a>
+                      </li>
+                      <li>
+                        <a
+                          href="mailto:info@devstudio.com"
+                          class="transition header-link link header-contacts mail-contact"
+                          >info@devstudio.com</a>
+                      </li>
+                    </ul>
+                  </address>
+                </div>
+                  <ul class="header-social-list list">
+                    <li class="header-social-media">
+                      <a href="" class="transition header-link-social link">
+                        <svg class="header-social-icon">
+                          <use
+                            href="./images/symbol-defs.svg#icon-instagram"
+                          ></use>
+                        </svg>
+                      </a>
                     </li>
-                    <li>
-                      <a
-                        href="mailto:info@devstudio.com"
-                        class="transition header-link link header-contacts mail-contact"
-                        >info@devstudio.com</a>
+                    <li class="header-social-media">
+                      <a href="" class="transition header-link-social link">
+                        <svg class="header-social-icon">
+                          <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="header-social-media">
+                      <a href="" class="transition header-link-social link">
+                        <svg class="header-social-icon">
+                          <use
+                            href="./images/symbol-defs.svg#icon-facebook"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="header-social-media">
+                      <a href="" class="transition header-link-social link">
+                        <svg class="header-social-icon">
+                          <use
+                            href="./images/symbol-defs.svg#icon-linkedin"
+                          ></use>
+                        </svg>
+                      </a>
                     </li>
                   </ul>
-                </address>
-              </div>
-                <ul class="header-social-list list">
-                  <li class="header-social-media">
-                    <a href="" class="transition header-link-social link">
-                      <svg class="header-social-icon">
-                        <use
-                          href="./images/symbol-defs.svg#icon-instagram"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="header-social-media">
-                    <a href="" class="transition header-link-social link">
-                      <svg class="header-social-icon">
-                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="header-social-media">
-                    <a href="" class="transition header-link-social link">
-                      <svg class="header-social-icon">
-                        <use
-                          href="./images/symbol-defs.svg#icon-facebook"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="header-social-media">
-                    <a href="" class="transition header-link-social link">
-                      <svg class="header-social-icon">
-                        <use
-                          href="./images/symbol-defs.svg#icon-linkedin"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
+                </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
     </header>
     <main>
       <section class="hero-main">
-        <div class="container">
+        <div class="container hero-container">
           <h1 class="hero-hover">Effective Solutions for Your Business</h1>
           <button data-modal-open type="button" class="transition hero-btn">
             Order Service
