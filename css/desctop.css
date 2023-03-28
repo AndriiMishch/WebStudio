@@ -25,9 +25,11 @@ max-width: 1158px;
   .mail-contact-main {
     margin-right: 40px;
   }
+
   
   .header-link {
-    display: block;
+    padding-bottom: 24px;
+    padding-top: 24px;
   }
   
   .site-nav {
@@ -213,6 +215,7 @@ font-style: normal;
             rgba(46, 47, 66, 0.7)
           ),
           url(../images/hero-background.jpg);
+          max-width: 100%;
     }
     .advantages-icon-box {
         position: relative;
