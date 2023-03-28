@@ -260,10 +260,6 @@ body {
 }
 
 /*Advantages */
-.advantages {
-  margin-top: var(--basic-margin);
-  margin-bottom: var(--basic-margin);
-}
 
 .advantages-icon {
   width: 64px;
@@ -311,7 +307,6 @@ body {
 /* our team */
 .our-team {
   background-color: var(--Light-color);
-  margin-top: var(--basic-margin);
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -325,12 +320,12 @@ body {
   text-transform: capitalize;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
-/* .team-item {
+.team-item {
   width: 100%;
-} */
+}
 
 .team-item {
   width: 264px;
@@ -349,30 +344,32 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .team-member-name {
-  padding-top: 32px;
   padding-bottom: 8px;
 }
 
 .team-member-descr {
-  padding-bottom: 8px;
+
 }
 
 .team-member-social-list {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 32px;
+  padding-top: 8px;
 }
 
 .social-media {
   width: 40px;
   height: 40px;
 }
-
+.header-link.active
 .team-member-social {
   color: var(--Hero-text-color);
   background-color: var(--Primary-brand-color);
@@ -409,7 +406,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .customer-list {
@@ -991,4 +988,3 @@ order: 1;
 flex-grow: 0;
 padding-left: 4px;
 }
-.header-modal-open
