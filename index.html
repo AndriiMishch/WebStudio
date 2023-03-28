@@ -29,7 +29,7 @@
               <use href="./images/symbol-defs.svg#icon-vector-converted"></use>
             </svg>
           </button>
-          <nav class="nav-header">
+          <nav class="nav-header-main">
             <ul class="list site-nav">
               <li>   
                 <a href="./index.html" class="header-link-main link header-nav active"
@@ -49,11 +49,11 @@
             </ul>
             <div class="additional-nav">
               <address class="header-nav-contacts-main">
-                <ul class="list">
+                <ul class="header-nav-contacts-main-list list">
                   <li>
                     <a
                       href="mailto:info@devstudio.com"
-                      class="transition header-link link header-contacts"
+                      class="transition header-link link header-contacts mail-contact-main"
                       >info@devstudio.com</a>
                   </li>
                   <li>
@@ -65,8 +65,7 @@
                 </ul>
               </address>
             </div>
-
-        </nav>
+          </nav>
           <div header-data-modal class="header-nav-wrap is-hidden">
             <nav class="nav-header">
               <button header-data-modal-close type="button" class="transition header-modal-close">
@@ -76,7 +75,7 @@
               </button>
               <ul class="list site-nav">
                 <li>   
-                  <a href="./index.html" class="header-link link header-nav active"
+                  <a href="./index.html" class="header-link link header-nav"
                     >Studio</a>
                 </li>
                 <li>
@@ -86,25 +85,26 @@
                   </a>
                 </li>
                 <li>
-                  <a href="" class="transition header-link link header-nav"
+                  <a href="" class="transition header-link link header-nav active"
                     >Contacts
                   </a>
                 </li>
               </ul>
+            <div class="header-form-group">
               <div class="additional-nav">
                 <address class="header-nav-contacts">
                   <ul class="list">
                     <li>
                       <a
-                        href="mailto:info@devstudio.com"
-                        class="transition header-link link header-contacts"
-                        >info@devstudio.com</a>
+                        href="tel:+110001111111"
+                        class="transition header-link link header-contacts phone-contact"
+                        >+11 (000) 111-11-11</a>
                     </li>
                     <li>
                       <a
-                        href="tel:+110001111111"
-                        class="transition header-link link header-contacts"
-                        >+11 (000) 111-11-11</a>
+                        href="mailto:info@devstudio.com"
+                        class="transition header-link link header-contacts mail-contact"
+                        >info@devstudio.com</a>
                     </li>
                   </ul>
                 </address>
@@ -145,8 +145,10 @@
                     </a>
                   </li>
                 </ul>
+              </div>
+            </div>
 
-          </nav>
+          </div>
         </div>
       </div>
     </header>
@@ -534,21 +536,22 @@
                 </a>
               </li>
             </ul>
-            <li>
-              <p class="footer-form-text-span">Subscribe</p>
-              <form action="">
-                <div class="footer-form-group">
-                  <label class="footer-form-text">
-                    <input type="text" placeholder="E-mail" class="footer-form-input">
-                  </label>
-                  <button class="footer-form-btn transition">Subscribe                   
-                    <svg class="footer-form-icon">
-                      <use href="./images/symbol-defs.svg#icon-telegram"></use>
-                    </svg>
-                  </button>
-                </div>
-              </form>
-            </li>
+          </li>
+          <li class="footer-list-item">
+            <p class="footer-form-text-span">Subscribe</p>
+            <form action="">
+              <div class="footer-form-group">
+                <label class="footer-form-text">
+                  <input type="text" placeholder="E-mail" class="footer-form-input">
+                </label>
+                <button class="footer-form-btn transition">Subscribe                   
+                  <svg class="footer-form-icon">
+                    <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                  </svg>
+                </button>
+              </div>
+            </form>
+            
           </li>
         </ul>
       </div>
