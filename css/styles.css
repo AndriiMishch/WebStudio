@@ -125,9 +125,6 @@ body {
 }
 
 
-.header-link {
-  display: block;
-}
 
 .site-nav {
   display: flex;
@@ -148,9 +145,7 @@ body {
   padding-left: 0;
 }
 
-.site-nav > li:not(:last-child) {
-  margin-right: 40px;
-}
+
 
 .nav-container {
   display: flex;
@@ -168,8 +163,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--Dark-color);
   position: relative;
-  padding-bottom: 24px;
-  padding-top: 24px;
+
 }
 
 .header-link.active::after {
@@ -748,8 +742,8 @@ color: rgba(255, 255, 255, 0.6);
 
 .modal {
   background-color: var(--Hero-text-color);
-  width: 408px;
-  height: 576px;
+  max-width: 408px;
+  max-height: 576px;
   position: absolute;
   top: 50%;
   left: 50%;
