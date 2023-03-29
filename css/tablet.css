@@ -141,7 +141,7 @@ line-height: 24px;
     .modal {
       background-color: var(--Hero-text-color);
       width: 408px;
-      max-height: 576px;
+      height: 576px;
       position: absolute;
       top: 50%;
       left: 50%;
