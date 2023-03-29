@@ -63,7 +63,7 @@ flex-grow: 0;
 }
 .phone-contact {
 font-weight: 600;
-font-size: 36px;
+/* font-size: 36px; */
 line-height: 40px;
 text-transform: capitalize;
 color: var(--Primary-brand-color);
@@ -318,7 +318,7 @@ flex-grow: 0;
 .modal {
   background-color: var(--Hero-text-color);
   max-width: 408px;
-  max-height: 576px;
+  height: 576px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -403,6 +403,7 @@ flex-grow: 0;
   color: var(--Dark-color);
   text-align: center;
 }
+
 /* .header-nav {
             display: none;
         }
@@ -455,7 +456,18 @@ flex-grow: 0;
   margin-top: 16px;
 }
 
-
+.phone-contact {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: var(--Primary-brand-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 40px;
+  padding-bottom: 0;
+  }
   .our-team {
     padding-top: 96px;
     padding-bottom: 128px;
@@ -483,8 +495,28 @@ flex-grow: 0;
       margin-left: auto;
       justify-content: flex-start;
     } 
+    .phone-contact {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 40px;
+      text-transform: capitalize;
+      color: var(--Primary-brand-color);
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin-bottom: 40px;
+      padding-bottom: 0;
+      }
   
 }
+@media screen and (max-width: 479) {
+  .phone-contact {
+    font-size: 16px;
+  }
+
+
+}
+
 
 @media screen and (max-width :767px) {
   .footer-list {
@@ -504,6 +536,7 @@ flex-grow: 0;
     justify-content: center;
     text-align: center;
   }
+
   
   .footer-list-item:first-child {
     margin-right: 0px;
