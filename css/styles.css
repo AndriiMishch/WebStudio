@@ -45,8 +45,11 @@ body {
   color: var(--Dark-color);
 }
 
+.scroll-disabled{
+  overflow: hidden;
+}
+
 .container {
-  /* max-width: 1158px; */
   width: 100%;
   margin: 0 auto;
   padding-left: 15px;
@@ -205,7 +208,6 @@ body {
 
 /* hero sectoin */
 .hero-main {
-  /* background-color: var(--Dark-color); */
   padding-bottom: 188px;
   padding-top: 188px;
   text-align: center;
@@ -216,18 +218,13 @@ body {
     url(../images/mobile-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size: 1440px; */
   background-size: 768px;
 }
 
 .hero-hover {
   font-weight: 700;
-  /* font-size: 56px;
-  line-height: calc(60 / 56); */
   letter-spacing: 0.02em;
   color: var(--Hero-text-color);
-  /* margin-bottom: 48px; */
-  /* width: 496px; */
 }
 
 .hero-btn {
@@ -271,32 +268,6 @@ body {
   border-radius: 4px;
 }
 
-/* .advantages ul > li {
-  width: 264px;
-}
-
-.advantages ul > li:not(:last-child) {
-  margin-right: var(--second-margin);
-}
-
-.advantages ul {
-  display: flex;
-}
-
-.advantages-hover {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: calc(24 / 20);
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-
-.advantages-text {
-  font-size: 16px;
-  line-height: calc(24 / 16);
-  letter-spacing: 0.02em;
-  color: var(--Text-color);
-} */
 
 /* our team */
 .our-team {
