@@ -63,7 +63,6 @@ flex-grow: 0;
 }
 .phone-contact {
 font-weight: 600;
-/* font-size: 36px; */
 line-height: 40px;
 text-transform: capitalize;
 color: var(--Primary-brand-color);
@@ -403,14 +402,6 @@ flex-grow: 0;
   color: var(--Dark-color);
   text-align: center;
 }
-
-/* .header-nav {
-            display: none;
-        }
-    
-        .additional-nav {
-            display: none;
-        } */
 
 .footer-list {
   display: flex;
