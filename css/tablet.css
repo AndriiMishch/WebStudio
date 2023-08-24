@@ -198,10 +198,7 @@ line-height: 24px;
       .advantages ul > li:first-child {
         margin-right: var(--second-margin);
       }
-      /* .advantages ul > li:nth-child(2n)  {
-        margin-left: var(--second-margin);
-      } */
-
+      
       .advantages ul {
         display: flex;
         flex-wrap: wrap;
